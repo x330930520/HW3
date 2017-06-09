@@ -12,10 +12,10 @@ from prettytable import PrettyTable
 from mpl_toolkits.basemap import Basemap
 from geopy import geocoders
     
-consumer_key = "Af3nB2RZQqqwqhk2YkZja5tfJ"
-consumer_secret = "u9unjiYEeMNeyvy8Dq8dEq1tgZ6UPJvKmYXES4ooo8qqVDLmzy"
-access_token = "4074593119-izmbtknrMyXV4ked08NVFFQvrkbia4isB6tT94q"
-access_token_secret = "wtFXJ0VslRgpz7dE73CZm2DmHmnr0sbXEOF1d9ygc4Gpw"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
